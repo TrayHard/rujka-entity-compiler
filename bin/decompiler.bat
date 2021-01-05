@@ -1,0 +1,1 @@
+"q3map2.exe" -game ja -convert -format map "templeoftheelders.bsp"

@@ -1,0 +1,154 @@
+Примеры использования энтити маппинга. Обратите внимание, что координаты (origin), а также различные ассетсы (модели, текстуры и т.п.) вам придется подбирать самостоятельно. Последнее вы можете либо добавить самостоятельно (но это должно быть также на всех клиентах, кто использует карту), либо воспользоваться имеющимися ассетсами в файлах assets0-assets1.pk3
+
+---------------------------------------------------------------------------
+
+Добавление модели (в данном случае взята ёлка с кастомной карты, вы можете брать стандартные модели):
+
+{
+"origin" "840 968 128"
+"model" "models/map_objects/christmastree/christmastree.md3"
+"modelscale" "3"
+"classname" "misc_model_static"
+}
+
+---------------------------------------------------------------------------
+
+Добавление эффекта:
+
+{
+"classname" "fx_runner"
+"fxFile" "env/small_fire"
+"spawnflags" "4"
+"origin" "-1152 2528 292"
+"soundSet" "yavintorch_lp"
+}
+
+---------------------------------------------------------------------------
+
+Погода (в данном случае добавление снега):
+
+{
+"origin" "792 504 88"
+"count" "800"
+"classname" "fx_snow"
+}
+
+---------------------------------------------------------------------------
+
+Замена текстуры:
+
+{
+"targetShaderNewName" "textures/hoth/snowbiga"
+"targetShaderName" "textures/korriban/k_basicfloor2"
+"classname" "trigger_always"
+}
+
+---------------------------------------------------------------------------
+
+Добавление респауна:
+
+FFA:
+{
+"angle" "180"
+"origin" "1248 928 152"
+"classname" "info_player_deathmatch"
+}
+
+DUEL:
+{
+"angle" "90"
+"origin" "832 40 24"
+"classname" "info_player_duel"
+}
+{
+"angle" "270"
+"origin" "832 816 152"
+"classname" "info_player_duel1"
+}
+{
+"angle" "90"
+"origin" "896 40 24"
+"classname" "info_player_duel2"
+}
+
+CTF:
+{
+"classname" "team_CTF_blueplayer"
+"origin" "-64 -64 16"
+"angle" "180"
+}
+{
+"classname" "team_CTF_redplayer"
+"origin" "-6144 -128 16"
+"angle" "360"
+}
+
+---------------------------------------------------------------------------
+
+Добавление спауна предметов:
+
+Bowcaster (арбалет Вуки):
+{
+"origin" "-3936 1184 144"
+"classname" "weapon_bowcaster"
+}
+Рокеты:
+{
+"origin" "704 -544 80"
+"classname" "ammo_rockets"
+}
+Аптечка
+{
+"angle" "135"
+"origin" "-2592 -384 -48"
+"classname" "item_medpak_instant"
+}
+
+Флаг в CTF:
+{
+"angle" "270"
+"_rs" "1"
+"_cs" "1"
+"model" "models/map_objects/mp/flag_base.md3"
+"origin" "-6464 0 960"
+"classname" "misc_model_static"
+}
+{
+"classname" "team_CTF_redflag"
+"origin" "-6464 0 988"
+"angle" "270"
+}
+{
+"angle" "270"
+"_rs" "1"
+"_cs" "1"
+"model" "models/map_objects/mp/flag_base.md3"
+"origin" "512 0 960"
+"classname" "misc_model_static"
+}
+{
+"classname" "team_CTF_blueflag"
+"origin" "512 0 988"
+"angle" "270"
+}
+
+---------------------------------------------------------------------------
+
+Добавление урона
+
+{
+"classname" "trigger_hurt"
+"dmg" "-1"
+"model" "*22"
+}
+
+---------------------------------------------------------------------------
+
+Добавление звуков:
+
+{
+"noise" "sound/ambience/cairn/cairn_circuits.wav"
+"classname" "target_speaker"
+"origin" "-1120 0 48"
+"spawnflags" "1"
+}
