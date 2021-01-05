@@ -2,6 +2,7 @@
 Bundle of files for making process of compiling entities for maps in the videogame [**Star Wars Jedi Knight III: Jedi Academy**](https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight:_Jedi_Academy) more comfortable.
 
 <a href="/%D0%9F%D1%80%D0%BE%D1%87%D1%82%D0%B8%20%D0%BC%D0%B5%D0%BD%D1%8F.md"><img src="https://img.shields.io/badge/Russian-blue.svg" /></a>
+<a href="/README.md"><img src="https://img.shields.io/badge/English-blue.svg" /></a>
 
 **Prepared by:** Tray
 
