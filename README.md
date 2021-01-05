@@ -38,7 +38,7 @@ And selection should end here:
 
 6. Open your *\*.ent* file with text editor and paste there everything you copied from the step 4.
 7. Make all changes you need and save the file.
-8. Go to the root folder of Entity Compiler, where you have compiler.bat. Launch it and input map name (it should be the same now for the folder for your map, *\*.bsp* file and *\*.ent* file. And press Enter.
+8. Go to the root folder of Entity Compiler, where you have *launch.bat*. Launch it and input map name (it should be the same now for the folder for your map, *\*.bsp* file and *\*.ent* file. And press Enter.
 9. If everything will go successfully you will get something similar to this:
 
 ![](https://i.imgur.com/1uVYmoJ.png)

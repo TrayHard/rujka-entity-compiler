@@ -5,7 +5,7 @@ echo compiling map: %map%.bsp
 echo with ent file: %map%.ent
 echo -------------------------------------------------
 echo.
-"bin/q3map2.exe" -v -game ja -fs_game base -onlyents maps/%map%/%map%.ent
+"compiler/q3map2.exe" -v -game ja -fs_game base -onlyents maps/%map%/%map%.ent
 echo.
 echo -------------------------------------------------
 echo please review the above text for errors to ensure
